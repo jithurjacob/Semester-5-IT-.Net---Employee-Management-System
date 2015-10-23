@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+           max-width: 40%;
+            max-height: 330px;
+            width:350px;
+            height:100%;
+            
+            left:0px;
+            float:left;
+            display:inline-block;
+        }
+        img
+        {
+            width:100%;
+            height:100%;
+            
+            }
+        .style3
+        {
+            font-size: x-large;
+            display:inline;
+        }
+        .style2
+        {display:inline-block;
+            
+            max-width: 40%;
+            max-height: 339px;
+            width:350px;
+            height:100%;
+            right:0px;
+            float:right;
+        }
+        .style4
+        {
+            text-align: center;
+        }
+        .a
+        {clear:both;
+            }
+            .b
+            {
+                width:100%;
+                height:350px;
+                overflow:hidden; 
+                }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="style4">
+            <br />
+            <div class=b>
+           <div class=style1> <img alt=""  src="image00.jpg" /></div>
+            <h1 class="style3"> 
+            MEDICARE
+            </h1>
+            <div class=style2><img alt=""  src="PAGE6.gif" /></div>
+            </div>
+            <br />
+            
+            <br />
+            <br />
+        </div>
+        <div class="a"></div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
