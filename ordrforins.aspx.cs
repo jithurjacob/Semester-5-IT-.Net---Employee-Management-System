@@ -78,8 +78,6 @@ public partial class ordrforins : System.Web.UI.Page
             Response.Redirect("default.aspx");
         }
     }
-
-
     protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
     {
         Label1.Text = "yo";
